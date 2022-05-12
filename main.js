@@ -32,5 +32,7 @@ const timer = setTimeout(function()  {
       }
     }
   }
-
+// Do all'utente l'esito del gioco
+  const numbers = rightNumbers
+  alert(`Complimenti hai indovinato : ${rightNumbers.length} su: ${numbers}`)
 }, 3000);
