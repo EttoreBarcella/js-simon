@@ -12,4 +12,7 @@ while (simonNumbers.length < 5) {
     simonNumbers.push(randomGen);
   }
 }
+// A schermo do all'utente i numeri che deve ricordarsi
+const numbers = simonNumbers;
+alert(`I numeri che devi ripetere sono ${numbers}`)
 
